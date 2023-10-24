@@ -3,7 +3,7 @@ if __name__ == '__main__':
     y = int(input())
     z = int(input())
     n = int(input())
-    ilist=[]
+    list=[]
 #    for i in range(0,x+1):
 #        for j in range(0,y+1):
 #            for k in range(0,z+1):
@@ -12,5 +12,6 @@ if __name__ == '__main__':
 #           for k in range(0,z+1):
 #               if i+j+k!=n:
 #                   ilist.append([i,j,k])
-    [[[ilist.append(list([i,j,k])) for k in range(0,z+1) if i+j+k!=n]for j in range(0,y+1)]for i in range(0,x+1)]
-    print(ilist)
+    [[[list.append(list([i,j,k])) for k in range(0,z+1) if i+j+k!=n]for j in range(0,y+1)]for i in range(0,x+1)]
+    print(list)
+# This program shows me learning about list comprehension (Though I still prefer not using it), and how it can substitute many lines by combining/compressing them into 1.
